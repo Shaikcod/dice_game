@@ -1,6 +1,6 @@
 var randomNumber1= Math.round(Math.random() * 5) ;
 var randomNumber2= Math.round(Math.random() * 5) ; 
-array = ["./images/dice1.png","./images/dice2.png","./images/dice3.png","./images/dice4.png","./images/dice5.png","./images/dice6.png"]
+array = ["./dice1.png","./dice2.png","./dice3.png","./dice4.png","./dice5.png","./dice6.png"]
 var x = document.getElementById("img1").setAttribute("src",array[randomNumber1])
 
 var x = document.getElementById("img2").setAttribute("src",array[randomNumber2])
